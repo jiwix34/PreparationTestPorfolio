@@ -1,0 +1,108 @@
+body{
+background-color: white;
+}
+
+#fondtete h1{
+  color: white;
+  font-family:hacked, serif;
+  text-align: center;
+  font-size: 70px;
+  padding-top: 40px;
+  line-height: 50px;
+}
+
+.entete{
+  position: relative;
+  z-index: 20;
+  background-color: black;
+  height: 200px;
+  width: 100%;
+  margin-top: -20px;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  color: black;
+}
+
+nav{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 10;
+}
+
+.sectionimage{
+  margin-top: 30px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+}
+
+#image1{
+  background-image: url("../img/beweb2.png");
+}
+
+#image2{
+  background-image: url("../img/test.png");
+}
+
+article{
+  margin-left: 120px;
+  margin-right: 120px;
+  color: black;
+  font-family: DAYROM;
+  font-size:  17px;
+  text-align: center;
+
+}
+
+footer{
+  margin-top: -20px;
+  background-color: black;
+  width: 100%;
+  height: 300px;
+}
+
+article.textecontact{
+color: white;
+margin-left: 300px;
+margin-right: 300px;
+padding-top: 10px;
+}
+
+#contact{
+padding-top: 30px;
+}
+
+.liencontact{
+  list-style: none;
+  display: inline-block;
+  color: white;
+  margin-left: 170px;
+  transition: 1s;
+  border-radius: 100%;
+}
+
+.mailcontact{
+  list-style: none;
+  display: inline-block;
+  color: white;
+  margin-left: 170px;
+  transition: 1s;
+}
+
+.liencontact:hover{
+  background-color: white;
+  transition: 1s;
+  border-radius: 0%;
+}
